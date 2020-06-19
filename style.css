@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, ul, li{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	max-width:1350px;	
+	margin:0 auto;
+}
+
+.header{
+	background-image:url(visit.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	width:100%;
+	height:350px;
+	text-align:center;
+}
+.header .nama-web{
+	position:absolute;
+	top:150px;
+	left:50%;
+	transform:translate(-50%);
+	color:white;
+	font-size:35px;
+	font-weight:800;
+	padding:10px 20px;
+	border:5px solid #FF69B4
+}
+
+nav .menu{
+	background-color:#FF69B4;
+}
+	
+nav .menu a{
+	display:inline-block;
+	color:black;
+	padding-left:20px;		
+	text-decoration:none;
+}
+
+nav .menu a li:hover{
+	background-color:pink;
+}
+
+nav .menu a li{
+	padding:10px;
+	list-style-type:none;
+}
+
+nav .menu a .dropdown-menu{
+	display:none;
+}
+nav .menu a .dropdown-menu li:hover{
+	display:inline-block;
+}
+
+.main-konten{
+	display:grid;
+	grid-template-columns: 1fr 4fr;
+
+}
+.sidebar{
+	text-align:center;
+	background-color:white;
+	padding: 20px;
+}
+.img-profile {
+	border-radius:50%;
+	width:200px;
+	height:200px;
+}
+
+.nama-profile{
+	font-size:20px;
+	font-weight:800;
+	margin:10px auto;
+}
+
+.social-media{
+	clear:both;
+	float:left;
+	line-height:60px;
+	font-weight:800;
+}
+
+.social-media .sosmed-icon{
+	width:40px;	
+	float:left;
+	margin:10px;
+}
+
+.social-media .username{
+	float:left;
+	line-height:60px;
+	font-weight:800;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid black;
+    background-color: black;
+    color:#fafafa;
+}
+.konten{
+	padding:0px;	
+}
+
+.judul-konten{
+	background-color:#FFE4E1;
+	font-size:30px;
+	color:#1A1A1A;
+	padding: 10px;
+}
+.isi-konten{
+	background-color:#FFE4E1;
+	padding: 10px;
+	}
+.kategori{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+
+}
+
+.kategori .kat-item {
+	margin: 20px;
+    max-width: 100%;
+    justify-self: center;
+    border: 1px solid rgb(0,0,0,0.3);
+}
+
+.kategori .kat-item .kat-img{
+	max-width:100%;
+}
+
+.kategori .kat-item .kat-des{
+	padding:10px;
+}
+
+footer{
+	float:left;
+	width:100%;
+	height:80px;
+	background-color:black;
+	color:white;
+}
+footer p{
+	text-align:center;	
+	line-height:80px;
+	margin: 0;
+}
+.clearfix{
+	clear:both;	
+}
+
+.back-button{
+	background-color:rgba(0,0,0,0.7);
+	position:fixed;
+	bottom:20px;
+	right:20px;
+	padding:10px 15px;
+}
+.back-button span{
+	font-size:30px;
+	font-weight:800;
+	color:white;
